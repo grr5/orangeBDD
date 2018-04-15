@@ -1,0 +1,246 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "create an employee",
+        "description": "",
+        "id": "orange-hrm-employee-management;create-an-employee;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78635334364,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "admin is logged in and is on homepage",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_is_logged_in_and_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2070153574,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin click on pim link",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_click_on_pim_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 843863573,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "admin clicked on add employee button",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_clicked_on_add_employee_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2601479333,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "admin enters employee details as \"raj\" and \"rej\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "raj",
+                  "offset": 34
+                },
+                {
+                  "val": "rej",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefsNewEmployee.admin_enters_new_employee_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "create an employee",
+        "description": "",
+        "id": "orange-hrm-employee-management;create-an-employee;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18790271009,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "admin is logged in and is on homepage",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_is_logged_in_and_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2029580699,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin click on pim link",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_click_on_pim_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 674320899,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "admin clicked on add employee button",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_clicked_on_add_employee_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1918286359,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "admin enters employee details as \"Ram\" and \"Sur\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ram",
+                  "offset": 34
+                },
+                {
+                  "val": "Sur",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefsNewEmployee.admin_enters_new_employee_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "create an employee",
+        "description": "",
+        "id": "orange-hrm-employee-management;create-an-employee;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23919687528,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "admin is logged in and is on homepage",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_is_logged_in_and_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994202900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin click on pim link",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_click_on_pim_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1455716418,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "admin clicked on add employee button",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_clicked_on_add_employee_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2548323248,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "admin enters employee details as \"David\" and \"Dave\" and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 34
+                },
+                {
+                  "val": "Dave",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefsNewEmployee.admin_enters_new_employee_with(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM employee management",
+    "description": "\r\nAs an admin\r\nI want to login to orangeHRM\r\nSo that I can add employees and manage records",
+    "id": "orange-hrm-employee-management",
+    "keyword": "Feature",
+    "uri": "addNewEmployee.feature"
+  }
+]

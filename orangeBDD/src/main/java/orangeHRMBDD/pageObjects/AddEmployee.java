@@ -40,7 +40,7 @@ public class AddEmployee extends BaseTest {
         return new AddEmployee();
     }
 
-    public AddEmployee editEmpDetails(){
+    public static AddEmployee editEmpDetails(){
         editButton.click();
         gender.click();
         Select maritalDropdown = new Select(maritalStatus);

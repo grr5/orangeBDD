@@ -18,7 +18,7 @@ Given admin is logged in and is on homepage
 When admin click on pim link
 Then admin clicked on add employee button
 And admin enters employee details as "<firstname>" and "<lastname>" and click on save button
-
+And admin can add more details
 
 
 Examples:

@@ -61,6 +61,11 @@ public class StepDefsNewEmployee extends BaseTest {
 
     }
 
+    @Then("^admin can add more details$")
+    public void admin_can_add_more_details() throws Throwable {
+       AddEmployee.editEmpDetails();
+    }
+
     //Employee list stepdefs
 
     @When("^admin clicked on employee list button$")

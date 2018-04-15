@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78635334364,
+              "duration": 14240803018,
               "status": "passed"
             },
             "line": 17,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2070153574,
+              "duration": 1163138430,
               "status": "passed"
             },
             "line": 18,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 843863573,
+              "duration": 686302938,
               "status": "passed"
             },
             "line": 19,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 2601479333,
+              "duration": 1696110264,
               "status": "passed"
             },
             "line": 20,
@@ -71,6 +71,18 @@
               1
             ],
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1726834853,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "admin can add more details",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_can_add_more_details()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -90,7 +102,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18790271009,
+              "duration": 12927360248,
               "status": "passed"
             },
             "line": 17,
@@ -102,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 2029580699,
+              "duration": 1354880922,
               "status": "passed"
             },
             "line": 18,
@@ -114,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 674320899,
+              "duration": 628373322,
               "status": "passed"
             },
             "line": 19,
@@ -126,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 1918286359,
+              "duration": 4968216855,
               "status": "passed"
             },
             "line": 20,
@@ -149,6 +161,18 @@
               1
             ],
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2682401511,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "admin can add more details",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_can_add_more_details()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -168,7 +192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23919687528,
+              "duration": 14931576553,
               "status": "passed"
             },
             "line": 17,
@@ -180,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 1994202900,
+              "duration": 1274865409,
               "status": "passed"
             },
             "line": 18,
@@ -192,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 1455716418,
+              "duration": 623633498,
               "status": "passed"
             },
             "line": 19,
@@ -204,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 2548323248,
+              "duration": 1650593193,
               "status": "passed"
             },
             "line": 20,
@@ -226,6 +250,18 @@
               0,
               1
             ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1954761114,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "admin can add more details",
+            "match": {
+              "location": "StepDefsNewEmployee.admin_can_add_more_details()"
+            },
             "keyword": "And "
           }
         ],

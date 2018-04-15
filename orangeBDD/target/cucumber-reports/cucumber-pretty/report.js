@@ -40,6 +40,11 @@ formatter.step({
   "name": "admin enters employee details as \"\u003cfirstname\u003e\" and \"\u003clastname\u003e\" and click on save button",
   "keyword": "And "
 });
+formatter.step({
+  "line": 21,
+  "name": "admin can add more details",
+  "keyword": "And "
+});
 formatter.examples({
   "line": 24,
   "name": "",
@@ -119,25 +124,30 @@ formatter.step({
   ],
   "keyword": "And "
 });
+formatter.step({
+  "line": 21,
+  "name": "admin can add more details",
+  "keyword": "And "
+});
 formatter.match({
   "location": "StepDefsNewEmployee.admin_is_logged_in_and_is_on_homepage()"
 });
 formatter.result({
-  "duration": 78635334364,
+  "duration": 14240803018,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefsNewEmployee.admin_click_on_pim_link()"
 });
 formatter.result({
-  "duration": 2070153574,
+  "duration": 1163138430,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefsNewEmployee.admin_clicked_on_add_employee_button()"
 });
 formatter.result({
-  "duration": 843863573,
+  "duration": 686302938,
   "status": "passed"
 });
 formatter.match({
@@ -154,7 +164,14 @@ formatter.match({
   "location": "StepDefsNewEmployee.admin_enters_new_employee_with(String,String)"
 });
 formatter.result({
-  "duration": 2601479333,
+  "duration": 1696110264,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefsNewEmployee.admin_can_add_more_details()"
+});
+formatter.result({
+  "duration": 1726834853,
   "status": "passed"
 });
 formatter.scenario({
@@ -195,25 +212,30 @@ formatter.step({
   ],
   "keyword": "And "
 });
+formatter.step({
+  "line": 21,
+  "name": "admin can add more details",
+  "keyword": "And "
+});
 formatter.match({
   "location": "StepDefsNewEmployee.admin_is_logged_in_and_is_on_homepage()"
 });
 formatter.result({
-  "duration": 18790271009,
+  "duration": 12927360248,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefsNewEmployee.admin_click_on_pim_link()"
 });
 formatter.result({
-  "duration": 2029580699,
+  "duration": 1354880922,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefsNewEmployee.admin_clicked_on_add_employee_button()"
 });
 formatter.result({
-  "duration": 674320899,
+  "duration": 628373322,
   "status": "passed"
 });
 formatter.match({
@@ -230,7 +252,14 @@ formatter.match({
   "location": "StepDefsNewEmployee.admin_enters_new_employee_with(String,String)"
 });
 formatter.result({
-  "duration": 1918286359,
+  "duration": 4968216855,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefsNewEmployee.admin_can_add_more_details()"
+});
+formatter.result({
+  "duration": 2682401511,
   "status": "passed"
 });
 formatter.scenario({
@@ -271,25 +300,30 @@ formatter.step({
   ],
   "keyword": "And "
 });
+formatter.step({
+  "line": 21,
+  "name": "admin can add more details",
+  "keyword": "And "
+});
 formatter.match({
   "location": "StepDefsNewEmployee.admin_is_logged_in_and_is_on_homepage()"
 });
 formatter.result({
-  "duration": 23919687528,
+  "duration": 14931576553,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefsNewEmployee.admin_click_on_pim_link()"
 });
 formatter.result({
-  "duration": 1994202900,
+  "duration": 1274865409,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefsNewEmployee.admin_clicked_on_add_employee_button()"
 });
 formatter.result({
-  "duration": 1455716418,
+  "duration": 623633498,
   "status": "passed"
 });
 formatter.match({
@@ -306,7 +340,14 @@ formatter.match({
   "location": "StepDefsNewEmployee.admin_enters_new_employee_with(String,String)"
 });
 formatter.result({
-  "duration": 2548323248,
+  "duration": 1650593193,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefsNewEmployee.admin_can_add_more_details()"
+});
+formatter.result({
+  "duration": 1954761114,
   "status": "passed"
 });
 });
